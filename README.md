@@ -13,7 +13,7 @@ Add to your composer.json
     "repositories":[
         {
             "type": "vcs",
-            "url": "git@github.com:Krisseck/Detect-CMS.git"
+            "url": "git@github.com:vmarinov2013/DetectCMS.git"
         }
     ],
     "require":{
@@ -32,4 +32,4 @@ How to use:
         echo "Detected CMS: ".$cms->getResult();
     } else {
         echo "CMS couldn't be detected";
-    } 
+    }
